@@ -20,7 +20,7 @@ hbs.registerHelper('getYear', ()=> new Date().getFullYear())
 
 app.get('/', (req, res) => {
     res.send({
-        name: 'bob',
+        port: port,
         test: 'testing'
     })
 });
